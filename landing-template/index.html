@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A clean landing page starter template." />
+    <title>Test landingpage</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Background decor -->
+    <div class="bg-blobs" aria-hidden="true">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <div class="blob blob-c"></div>
+    </div>
+
+    <!-- NAV -->
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">Christopher Gray</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Open menu</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <nav id="nav-menu" class="nav-menu" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+          <a class="btn btn-primary" href="#cta">Get started</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <main id="main">
+      <section class="section hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Launch faster • Convert better</p>
+
+            <h1>
+              A landing page starter that doesn’t fight you
+            </h1>
+
+            <p class="lead">
+              Drop in your copy, plug in your product screenshots, and ship. Built with design tokens,
+              responsive layout, and sensible defaults.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#cta">Start free</a>
+              <a class="btn btn-ghost" href="#features">See features</a>
+            </div>
+
+            <ul class="hero-bullets" role="list">
+              <li>✅ Mobile-first layout</li>
+              <li>✅ Accessible components</li>
+              <li>✅ Fast to customize</li>
+            </ul>
+          </div>
+
+          <div class="hero-card" role="img" aria-label="Product preview placeholder">
+            <div class="mock-top">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="mock-url">yourbrand.com</span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-kpi">
+                <div class="kpi">
+                  <div class="kpi-label">Signups</div>
+                  <div class="kpi-value">1,284</div>
+                </div>
+                <div class="kpi">
+                  <div class="kpi-label">Conversion</div>
+                  <div class="kpi-value">4.9%</div>
+                </div>
+              </div>
+              <div class="mock-chart" aria-hidden="true"></div>
+              <div class="mock-row">
+                <div class="pill">Auto-layout</div>
+                <div class="pill">Tokens</div>
+                <div class="pill">CTA-ready</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container logo-cloud" aria-label="Trusted by">
+          <span class="muted">Trusted by teams who like shipping</span>
+          <div class="logos" aria-hidden="true">
+            <span class="logo">Northwind</span>
+            <span class="logo">Acme</span>
+            <span class="logo">Stark</span>
+            <span class="logo">Umbrella</span>
+            <span class="logo">Wayne</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Features that cover the 80/20</h2>
+            <p class="muted">
+              This is the stuff most landing pages need: clarity, proof, and a clean conversion path.
+            </p>
+          </div>
+
+          <div class="grid3">
+            <article class="card">
+              <h3>Design tokens</h3>
+              <p class="muted">
+                Update colors, spacing, radius, and shadows in one place. Everything adapts.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Conversion layout</h3>
+              <p class="muted">
+                Hero → proof → benefits → pricing → FAQ → CTA. No weird detours.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Accessible by default</h3>
+              <p class="muted">
+                Skip link, semantic sections, focus styles, keyboard-friendly nav, and <code>&lt;details&gt;</code> FAQ.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section id="how" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>How it works</h2>
+            <p class="muted">Three steps. No ceremonies. Minimal suffering.</p>
+          </div>
+
+          <ol class="steps">
+            <li class="step">
+              <div class="step-num">1</div>
+              <div>
+                <h3>Paste your copy</h3>
+                <p class="muted">Swap the headline, subhead, and CTAs to match your product.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step-num">2</div>
+              <div>
+                <h3>Drop in visuals</h3>
+                <p class="muted">Replace the mock card with a screenshot/video/illustration.</p>
+              </div>
+            </li>
+            <li class="step">
+              <div class="step-num">3</div>
+              <div>
+                <h3>Ship</h3>
+                <p class="muted">Deploy anywhere. This is just static files.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>People saying nice things</h2>
+            <p class="muted">Swap these for real testimonials when you have them.</p>
+          </div>
+
+          <div class="grid3">
+            <figure class="card quote">
+              <blockquote>
+                “We replaced our messy page with this structure and conversions jumped immediately.”
+              </blockquote>
+              <figcaption class="muted">— Alex, Product</figcaption>
+            </figure>
+
+            <figure class="card quote">
+              <blockquote>
+                “The token system is the difference between ‘quick edit’ and ‘CSS archaeology.’”
+              </blockquote>
+              <figcaption class="muted">— Sam, Engineer</figcaption>
+            </figure>
+
+            <figure class="card quote">
+              <blockquote>
+                “It’s boring in the best way. Everything is where users expect it.”
+              </blockquote>
+              <figcaption class="muted">— Jo, Growth</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section id="pricing" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Pricing</h2>
+            <p class="muted">Simple tiers. Edit freely. No pricing police here.</p>
+
+            <div class="toggle" role="group" aria-label="Billing period">
+              <button class="toggle-btn is-active" type="button" data-billing="monthly">Monthly</button>
+              <button class="toggle-btn" type="button" data-billing="yearly">Yearly <span class="badge">-20%</span></button>
+            </div>
+          </div>
+
+          <div class="grid3">
+            <article class="card price">
+              <h3>Starter</h3>
+              <p class="muted">For trying it out.</p>
+              <div class="price-line">
+                <span class="price-val" data-price-monthly="0" data-price-yearly="0">$0</span>
+                <span class="muted">/ mo</span>
+              </div>
+              <ul class="list" role="list">
+                <li>Basic sections</li>
+                <li>Responsive layout</li>
+                <li>FAQ + CTA</li>
+              </ul>
+              <a class="btn btn-ghost" href="#cta">Try it</a>
+            </article>
+
+            <article class="card price featured">
+              <div class="tag">Most popular</div>
+              <h3>Pro</h3>
+              <p class="muted">Unlimited maintenance.</p>
+              <div class="price-line">
+                <span class="price-val">$150</span>
+                <span class="muted">initial + $25/mo</span>
+              </div>
+              <ul class="list" role="list">
+                <li>Everything in Starter</li>
+                <li>Polished sections</li>
+                <li>Great for MVPs</li>
+              </ul>
+              <a class="btn btn-primary" href="#cta">Get Pro</a>
+            </article>
+
+            <article class="card price">
+              <h3>Business</h3>
+              <p class="muted">Up to 5 extra pages and unlimited maintenance.</p>
+              <div class="price-line">
+                <span class="price-val">$300</span>
+                <span class="muted">starting + $60/mo</span>
+              </div>
+              <ul class="list" role="list">
+                <li>Everything in Pro</li>
+                <li>Extra sections</li>
+                <li>Priority support</li>
+              </ul>
+              <a class="btn btn-ghost" href="#cta">Talk to sales</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>FAQ</h2>
+            <p class="muted">Using <code>&lt;details&gt;</code> means it works even with JS off.</p>
+          </div>
+
+          <div class="faq">
+            <details class="faq-item">
+              <summary>Can I use this in React / Next.js?</summary>
+              <p class="muted">Yep. Copy the sections into components and keep the tokens in a global CSS file.</p>
+            </details>
+
+            <details class="faq-item">
+              <summary>Is this optimized for performance?</summary>
+              <p class="muted">It’s static + minimal JS. Biggest wins will come from compressing your images.</p>
+            </details>
+
+            <details class="faq-item">
+              <summary>How do I match my existing brand?</summary>
+              <p class="muted">Edit the CSS variables in <code>:root</code>. That’s the whole trick.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section id="cta" class="section cta">
+        <div class="container cta-inner">
+          <div>
+            <h2>Ready to launch?</h2>
+            <p class="muted">Replace this CTA block with your signup form or links.</p>
+          </div>
+
+          <form class="cta-form" onsubmit="sendEmail(event); return false;">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" type="email" placeholder="you@domain.com" autocomplete="email" />
+            <button class="btn btn-primary" type="button">Notify me</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-name">Christopher Gray</span>
+          </div>
+          <p class="muted">© <span id="year"></span> Christopher Gray. All rights reserved.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#faq">FAQ</a>
+        </div>
+
+        <div class="footer-links">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
