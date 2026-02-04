@@ -24,7 +24,7 @@ export default function Home() {
       const response = await fetch('https://api.resend.com/emails', {
         method: 'POST',
         headers: {
-          'Authorization': `Bearer YOUR_RESEND_API_KEY`,
+          'Authorization': `Bearer ${process.env.NEXT_PUBLIC_RESEND_API_KEY}`,
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
@@ -66,7 +66,7 @@ export default function Home() {
             <span className="brand-name">Christopher Gray</span>
           </a>
 
-          <button className="nav-toggle" type="button" aria-expanded={navOpen.toString()} aria-controls="nav-menu" onClick={() => setNavOpen(!navOpen)}>
+          <button className="nav-toggle" type="button" aria-expanded={navOpen} aria-controls="nav-menu" onClick={() => setNavOpen(!navOpen)}>
             <span className="sr-only">Open menu</span>
             <span aria-hidden="true">☰</span>
           </button>
