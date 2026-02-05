@@ -1,3 +1,7 @@
+// Next.js Landing Page Template
+// Built with Next.js 14, React, TypeScript, and Tailwind CSS
+// Dependencies: next@14.0.0, react@^18, react-dom@^18, tailwindcss@^3.3.0
+
 'use client'
 
 import { useState } from 'react'
