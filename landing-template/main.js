@@ -64,7 +64,7 @@ async function sendEmail(event) {
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
-        'Authorization': `re_jCFZAA6k_DK334doUvKhGTmrmha6iSfqm`, // Replace with your actual API key
+        'Authorization': `Bearer re_jCFZAA6k_DK334doUvKhGTmrmha6iSfqm`, // Replace with your actual API key
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
